@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async js</title>
+
+</head>
+
+<body style="display: flex; justify-content: center; align-items: center; gap: 30px; height: 100vh;">
+
+    <h1>Async js</h1>
+    <button>submit</button>
+
+
+    <script>
+        function fun() {
+            document.querySelector('h1').textContent = 'goutam-waghe'
+        }
+        const stop = setTimeout(fun, 2000)//ref lenge nhi  to immmiditaly call ho jayga 
+        clearTimeout(stop)//ref lenge 
+
+
+    </script>
+</body>
+
+</html>

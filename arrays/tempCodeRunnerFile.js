@@ -1,0 +1,1 @@
+acc + val/arr.length

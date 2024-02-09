@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#piano {
+
+    background-color: #ffadad;
+    width: 70%;
+    height: 400px;
+    padding: 0px 20px 30px 20px;
+    display: flex;
+
+    justify-content: center;
+    align-items: end;
+}
+
+#keys {
+    display: flex;
+
+    position: relative;
+}
+
+.key {
+
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+
+
+    border: 2px solid black;
+}
+
+.white-key {
+    height: 250px;
+    background-color: #fff;
+
+    width: 70px;
+
+}
+
+.black-key {
+    width: 40px;
+    height: 150px;
+    background-color: #000;
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+}
+
+
+
+.black-key:nth-child(1) {
+    left: 50px;
+}
+
+.black-key:nth-child(2) {
+    left: 120px;
+    /* background-color: red; */
+}
+
+.black-key:nth-child(3) {
+    left: 260px;
+}
+
+.black-key:nth-child(4) {
+    left: 330px;
+}
+
+.black-key:nth-child(5) {
+    left: calc(70*6px - 20px);
+}
+
+.black-key:nth-child(6) {
+    left: calc(70*8px - 20px);
+}
+
+.black-key:nth-child(7) {
+    left: calc(70*9px - 20px);
+}
+
+.black-key:nth-child(8) {
+    left: calc(70*10px - 20px);
+}
+
+.black-key:nth-child(9) {
+    left: calc(70*12px - 20px);
+}
+
+.black-key:nth-child(10) {
+    left: calc(70*13px - 20px);
+}
